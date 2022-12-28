@@ -37,8 +37,15 @@
           Perfumer-Creator for the House of CHANEL.</p>
     
         <div class="price-box">
-          <p class="product__price">$149.99</p>
-          <p class="product__original-price">$169.99</p>
+          <!-- used the tag span for accessibility reasons, just to make sure we don't see it on the page but still accessible by a screen reader -->
+          <p class="product__price">
+            <span class="visually-hidden">Current price:</span>
+            $149.99
+          </p>
+          <p class="product__original-price">
+            <span class="visually-hidden">Original price:</span>
+            <s>$169.99</s>
+          </p>
         </div> 
 
         <button class="button">Add to Cart</button>
