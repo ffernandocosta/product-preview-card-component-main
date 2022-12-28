@@ -73,6 +73,7 @@ body {
     width: 15px;
     height: 16px;
 }
+
 /* product styles */
 
 .product {
@@ -125,3 +126,6 @@ body {
     font-family: var(--ff-primary);
     color: var(--clr-primary-400);
 }
+
+.footer { font-size: 11px; text-align: center; margin-top: 4rem;}
+.footer a { color: hsl(228, 45%, 44%); }
