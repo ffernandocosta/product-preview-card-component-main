@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [My solution](https://github.com/ffernandocosta/product-preview-card-component-main )
-- [Live version](https://your-live-site-url.com)
+- [Live version](https://ffernandocosta.github.io/product-preview-card-component-main/)
 
 ## My process
 
