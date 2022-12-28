@@ -1,6 +1,7 @@
 /* my variables */
 :root {
     --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-primary-500: hsl(158, 36%, 20%);
     --clr-secundary-200: hsl(30, 38%, 92%);
 
     --clr-neutral-900: hsl(212, 21%, 14%);
@@ -46,6 +47,25 @@ body {
         width: 1px;
     }
 
+.button {
+    cursor: pointer;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border: 0;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    font-weight: var(--fw-bold);
+    font-size: 0.925rem;
+}
+
+.button:is(:hover, :focus) {
+    background-color: var(--clr-primary-500);
+}
 /* product styles */
 
 .product {
