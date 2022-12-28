@@ -1,3 +1,4 @@
+/* my variables */
 :root {
     --clr-primary-400: hsl(158, 36%, 37%);
     --clr-secundary-200: hsl(30, 38%, 92%);
@@ -6,10 +7,27 @@
     --clr-neutral-400: hsl(228, 12%, 48%);
     --clr-neutral-100: hsl(0, 0%, 100%);
 
-    --ff-accent: "Fraunces", serif;
-    --ff-base: "Montserrat", sans-serif;
+    --ff-primary: "Fraunces", serif;
+    --ff-body: "Montserrat", sans-serif;
 
     --fw-regular: 500;
     --fw-bold: 700;
+
+}
+
+/* general styling */
+
+body {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-400);
+    font-size: 0.875rem;
+    background-color: var(--clr-secundary-200);
+
+    /* since it's a simple project and all the content is center in the middle, I decided to put this on the body */
+
+    display: grid;
+    place-content: center;
+    margin: 1rem;
 
 }
